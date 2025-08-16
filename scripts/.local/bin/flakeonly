@@ -2,4 +2,3 @@
 set -euo pipefail
 sudo nix flake update --flake /etc/nixos
 sudo nixos-rebuild switch --flake /etc/nixos#nixos
-EOF
