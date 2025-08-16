@@ -1,0 +1,11 @@
+# Ignore nested Git repos entirely (files inside .git are auto-ignored)
+**/.git/
+
+# Ignore system artifacts
+.DS_Store
+Thumbs.db
+
+
+# Ignore backup files
+*.bak
+
